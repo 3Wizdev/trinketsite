@@ -1,0 +1,66 @@
+
+<!-- I don't like making websites, but this one was made by Chloe Laws because under no circumstances
+am I about to let my business be bent over the table by companies like wix -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css">
+  <title>Trinket Software</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Trinket Software</div>
+  <button id="navToggle" class="nav-toggle" aria-label="Toggle Menu">☰</button>
+  <nav id="navMenu" class="nav">
+    <a href="#games">Games</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <button class="theme-toggle" id="toggleTheme" aria-label="Toggle Dark/Light Mode">🌙</button>
+  </nav>
+  </header>
+
+  <section class="hero">
+    <div class="imgtilt">
+        <img src="./logoupscale.png" class="tilt" alt="tilting"width="100%">
+    </div>
+  </section>
+
+  <section class="section" id="games">
+    <h2 style="text-align:center; margin-bottom: 2rem;">🎮 Our Games</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Coming soon</h3>
+        <p>keep your hat on, you'll find out about this soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <h2>👾 About Us</h2>
+    <p>
+        Trinket Software is a small independent games company with a fierce passion for great indie games at what we believe is a fair price. We don't have costs like an office to recoup, so we don't have anything huge to pass on to you, the player.<br><br>As a remote-first games company, we believe that developers work best when they're in an environment that they enjoy. We also believe strongly in, and enforce, a four-day work week and a relaxed 10:00 - 5:30 daily schedule so that our people can enjoy their mornings a little longer. Our developers value their time both in and out of work, and under no circumstances do we interrupt our employees outside of work, but if we're all close together, we might hang out in a nice village pub or a museum for a day out. No work stress, just friends.<br><br>We're currently working on our first title which is (hopefully) soon to be announced.
+    </p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>📬 Contact Us</h2>
+    <form id="contactForm" action="https://formspree.io/f/mqapwygj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Trinket Software Limited. All rights reserved.
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
