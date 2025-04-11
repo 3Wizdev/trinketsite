@@ -5,13 +5,6 @@
      --bg: #121212;
     }
 
-    body.light {
-      --primary: #f4f4f9;
-      --accent: #007bff;
-      --text: #333;
-      --bg: #ffffff;
-    }
-
     * {
       box-sizing: border-box;
       margin: 0;
